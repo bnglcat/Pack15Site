@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Pack15Site/static/css/main.5c9345d1.css",
+    "main.js": "/Pack15Site/static/js/main.cb19c93c.js",
+    "static/js/787.8e5f6d75.chunk.js": "/Pack15Site/static/js/787.8e5f6d75.chunk.js",
+    "static/media/scout_me_in_horizon.jpg": "/Pack15Site/static/media/scout_me_in_horizon.ac7a17cb3de0f6920478.jpg",
+    "static/media/istrouma.png": "/Pack15Site/static/media/istrouma.58b9055b5c3ca1507b27.png",
+    "static/media/AdventureOnLogo.jpeg": "/Pack15Site/static/media/AdventureOnLogo.58bab7324639f25ae1f4.jpeg",
+    "static/media/fishing-back.jpg": "/Pack15Site/static/media/fishing-back.2f087f9d5415cd2f18c0.jpg",
+    "static/media/rockets-back.jpeg": "/Pack15Site/static/media/rockets-back.9e04877c22050bcee978.jpeg",
+    "static/media/canoeing-back.jpg": "/Pack15Site/static/media/canoeing-back.7e560868a80686fa981d.jpg",
+    "static/media/camping-back.jpg": "/Pack15Site/static/media/camping-back.3813729e10bf62b78035.jpg",
+    "static/media/archery-back.jpg": "/Pack15Site/static/media/archery-back.50ae84ba45246c9b2a05.jpg",
+    "static/media/Prepared_standard_4K-Logo-BC.png": "/Pack15Site/static/media/Prepared_standard_4K-Logo-BC.ab6ec1d28202d5efcba1.png",
+    "index.html": "/Pack15Site/index.html",
+    "main.5c9345d1.css.map": "/Pack15Site/static/css/main.5c9345d1.css.map",
+    "main.cb19c93c.js.map": "/Pack15Site/static/js/main.cb19c93c.js.map",
+    "787.8e5f6d75.chunk.js.map": "/Pack15Site/static/js/787.8e5f6d75.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c9345d1.css",
+    "static/js/main.cb19c93c.js"
+  ]
+}
