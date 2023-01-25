@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Pack15Site/static/css/main.5c9345d1.css",
-    "main.js": "/Pack15Site/static/js/main.cb19c93c.js",
+    "main.js": "/Pack15Site/static/js/main.a9b7cb56.js",
     "static/js/787.8e5f6d75.chunk.js": "/Pack15Site/static/js/787.8e5f6d75.chunk.js",
     "static/media/scout_me_in_horizon.jpg": "/Pack15Site/static/media/scout_me_in_horizon.ac7a17cb3de0f6920478.jpg",
     "static/media/istrouma.png": "/Pack15Site/static/media/istrouma.58b9055b5c3ca1507b27.png",
@@ -14,11 +14,11 @@
     "static/media/Prepared_standard_4K-Logo-BC.png": "/Pack15Site/static/media/Prepared_standard_4K-Logo-BC.ab6ec1d28202d5efcba1.png",
     "index.html": "/Pack15Site/index.html",
     "main.5c9345d1.css.map": "/Pack15Site/static/css/main.5c9345d1.css.map",
-    "main.cb19c93c.js.map": "/Pack15Site/static/js/main.cb19c93c.js.map",
+    "main.a9b7cb56.js.map": "/Pack15Site/static/js/main.a9b7cb56.js.map",
     "787.8e5f6d75.chunk.js.map": "/Pack15Site/static/js/787.8e5f6d75.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c9345d1.css",
-    "static/js/main.cb19c93c.js"
+    "static/js/main.a9b7cb56.js"
   ]
 }
