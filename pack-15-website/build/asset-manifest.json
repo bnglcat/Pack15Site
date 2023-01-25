@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5c9345d1.css",
+    "main.js": "/static/js/main.767278dd.js",
+    "static/js/787.8e5f6d75.chunk.js": "/static/js/787.8e5f6d75.chunk.js",
+    "static/media/scout_me_in_horizon.jpg": "/static/media/scout_me_in_horizon.ac7a17cb3de0f6920478.jpg",
+    "static/media/istrouma.png": "/static/media/istrouma.58b9055b5c3ca1507b27.png",
+    "static/media/AdventureOnLogo.jpeg": "/static/media/AdventureOnLogo.58bab7324639f25ae1f4.jpeg",
+    "static/media/fishing-back.jpg": "/static/media/fishing-back.2f087f9d5415cd2f18c0.jpg",
+    "static/media/rockets-back.jpeg": "/static/media/rockets-back.9e04877c22050bcee978.jpeg",
+    "static/media/canoeing-back.jpg": "/static/media/canoeing-back.7e560868a80686fa981d.jpg",
+    "static/media/camping-back.jpg": "/static/media/camping-back.3813729e10bf62b78035.jpg",
+    "static/media/archery-back.jpg": "/static/media/archery-back.50ae84ba45246c9b2a05.jpg",
+    "static/media/Prepared_standard_4K-Logo-BC.png": "/static/media/Prepared_standard_4K-Logo-BC.ab6ec1d28202d5efcba1.png",
+    "index.html": "/index.html",
+    "main.5c9345d1.css.map": "/static/css/main.5c9345d1.css.map",
+    "main.767278dd.js.map": "/static/js/main.767278dd.js.map",
+    "787.8e5f6d75.chunk.js.map": "/static/js/787.8e5f6d75.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c9345d1.css",
+    "static/js/main.767278dd.js"
+  ]
+}
