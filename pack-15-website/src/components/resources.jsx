@@ -1,53 +1,149 @@
+import React, { useState } from 'react';
+import ListGroup from 'react-bootstrap/ListGroup';
 import imageSrc from '../images/camping-back.jpg';
+import Ranks from './ranks';
+import Scoutbook from './scoutbook';
+import ScoutShop from './scoutshop';
+import MedicalForms from './medforms';
+import ScoutCloset from './scoutcloset';
 
 const Resources = () => {
+  const [content, setContent] = useState('');
+  const [toggle, setToggle] = useState('');
+
   return (
     <>
       <img className='content-image' src={imageSrc} alt='scouting' />
-      <div className='container-fluid content'>
+      <div className='container-fluid content '>
         <div className='row'>
-          <div className='col'></div>
-        </div>
-        <div className='row'>
-          <div className='col resource-section'>Parent Resources</div>
-        </div>
-        <div className='row'>
-          <div className='col'>
-            <div className='resource-title'>Scoutbook</div>
-            <div className='resource'>
-              Scoutbook is an advancement tracking tool. It also has messaging,
-              forums, service, hiking, camping tracking and calendaring
-              features.
-              <div>
-                <a
-                  href='https://scoutbook.scouting.org/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  Click Here to Launch Scoutbook
-                </a>
-              </div>
-            </div>
+          <div className='col-25'>
+            <ListGroup variant='flush'>
+              <ListGroup.Item
+                action='false'
+                eventKey='parent'
+                className='resource-title'
+                onClick={() => setToggle('parent')}
+              >
+                Parent Resources
+              </ListGroup.Item>
+              {
+                toggle === 'parent' && (
+                  <>
+                    <ListGroup.Item
+                      action='true'
+                      eventKey={'scoutcloset'}
+                      onClick={() => setContent(<ScoutCloset />)}
+                      variant='light'
+                    >
+                      Scout Closet
+                    </ListGroup.Item>
+                    <ListGroup.Item
+                      action='true'
+                      eventKey={'scoutbook'}
+                      onClick={() => setContent(<Scoutbook />)}
+                      variant='light'
+                    >
+                      Scoutbook
+                    </ListGroup.Item>
+                    <ListGroup.Item
+                      action='true'
+                      eventKey={'scoutshop'}
+                      onClick={() => setContent(<ScoutShop />)}
+                      variant='light'
+                    >
+                      Scout Shop
+                    </ListGroup.Item>
+                    <ListGroup.Item
+                      action='true'
+                      eventKey={'medforms'}
+                      onClick={() => setContent(<MedicalForms />)}
+                      variant='light'
+                    >
+                      Medical Forms
+                    </ListGroup.Item>
+                    <ListGroup.Item
+                      action='true'
+                      eventKey={'ranks'}
+                      onClick={() => setContent(<Ranks />)}
+                      variant='light'
+                    >
+                      Scout Ranks
+                    </ListGroup.Item>
+                  </>
+                )
+                /*  */
+              }
+            </ListGroup>
+            <br />
+            <ListGroup variant='flush'>
+              <ListGroup.Item
+                action='false'
+                eventKey='leader'
+                className='resource-title'
+                onClick={() => setToggle('leader')}
+              >
+                Leader Resourcessss
+              </ListGroup.Item>
+              {toggle === 'leader' && (
+                <>
+                  <ListGroup.Item
+                    action='true'
+                    eventKey={'leadermed'}
+                    onClick={() => setContent(<MedicalForms />)}
+                    variant='light'
+                    className={toggle === 'parent' ? 'hidden' : ''}
+                  >
+                    Medical Forms
+                  </ListGroup.Item>
+                  <ListGroup.Item
+                    action='true'
+                    eventKey={'leaderscoutbook'}
+                    onClick={() => setContent(<Scoutbook />)}
+                    variant='light'
+                    className={toggle === 'parent' ? 'hidden' : ''}
+                  >
+                    Scoutbook
+                  </ListGroup.Item>
+                  <ListGroup.Item
+                    action='true'
+                    eventKey={'leaderscoutshop'}
+                    onClick={() => setContent(<ScoutShop />)}
+                    variant='light'
+                  >
+                    Scout Shop
+                  </ListGroup.Item>
+                  <ListGroup.Item
+                    action='true'
+                    eventKey={'l2'}
+                    onClick={() => setContent(<MedicalForms />)}
+                    variant='light'
+                    className={toggle === 'parent' ? 'hidden' : ''}
+                  >
+                    Some Resource 2
+                  </ListGroup.Item>
+                  <ListGroup.Item
+                    action='true'
+                    eventKey={'l3'}
+                    onClick={() => setContent(<MedicalForms />)}
+                    variant='light'
+                    className={toggle === 'parent' ? 'hidden' : ''}
+                  >
+                    Some Resource 3
+                  </ListGroup.Item>
+                </>
+              )}
+            </ListGroup>
           </div>
+          <div className='col-75 text-start'>{content}</div>
         </div>
-        <div className='row'>&nbsp;</div>
+      </div>
+
+      {/*
+
         <div className='row'>
           <div className='col'>
             <div className='resource-title'>Medical Forms</div>
-            <div className='resource'>
-              Download the BSA Medical Form document here -{'> '}
-              <br />
-              <br />
-              <button className='btn btn-primary'>
-                <a
-                  href='https://filestore.scouting.org/filestore/HealthSafety/pdf/680-001_AB.pdf'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  BSA Medical Form (PDF)
-                </a>
-              </button>
-            </div>
+
           </div>
         </div>
         <div className='row'><div className='col section-spacer'>&nbsp;</div></div>
@@ -74,7 +170,7 @@ const Resources = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* <Nav
         id='main-navigation'

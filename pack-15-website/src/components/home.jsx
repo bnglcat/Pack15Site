@@ -14,7 +14,7 @@ const Home = () => {
             </div>
           </div>
           <div className='row'>
-            <div className='col resource'>
+            <div className='col subcontent'>
               <br />
               Cub Scout Pack 15 was chartered in 1984 and has been serving
               scouts in grades K-5 in the Baton Rouge, LA area ever since. We
@@ -22,20 +22,8 @@ const Home = () => {
               and are sponsored by the Rotary Club of Southeast Baton Rouge.
               <br />
               <br />
-              We are a very active Cub Scout pack. Pack Meetings occur on one
-              Wednesday each month at St. Andrew's Methodist Church in
-              Shenandoah. Many of our Dens try to have at least 2 meetings per
-              month to maximize the number of adventures our Scouts can
-              experience. In addition to Pack and Den meetings, the Pack plans 1
-              weekend event every month not only during the school year, but
-              through the summer months as well. Typical events include Rocket
-              Build and Launches, Pinewood Derby Races, Spring and Fall camp outs,
-              and the annual Blue and Gold Banquet where our Arrow of Light
-              Scouts will cross over into a Boy Scout Troop.
-              <br />
-              <br />
-              Our goal is to foster the BSA vision of building our youth into
-              conscientious, responsible, and productive boys and girls by
+              Pack 15's goal is to foster the BSA vision of building our youth
+              into conscientious, responsible, and productive boys and girls by
               instilling in them lifetime values and developing ethical
               character traits as expressed in the Scout Oath and Law. We want
               to create an environment that fosters a sense of community while
@@ -46,32 +34,29 @@ const Home = () => {
               We require all our leaders to be properly trained so our scouts
               can be mentored in a safe environment. In addition, we encourage
               our leaders to attend regular Scout training events and monthly
-              round tables. Many of our scouts go on to join
-              <Link to='https://www.facebook.com/troop888/'>
-                <b>
-                  {' '}
-                  <u>Boy Scout Troop 888</u>{' '}
-                </b>
-              </Link>
-              or
-              <Link to='https://www.boyscoutmulchbr.org/about-troop-203'>
-                <b>
-                  {' '}
-                  <u>Troop 203</u>{' '}
-                </b>
-              </Link>
+              round tables. Many of our scouts go on to join{' '}
+              <a
+                href='https://www.facebook.com/troop888/'
+                rel='noreferrer'
+                target={'_blank'}
+              >
+                Boy Scout Troop 888{' '}
+              </a>
+              or{' '}
+              <a
+                href='https://www.boyscoutmulchbr.org/about-troop-203'
+                rel='noreferrer'
+                target={'_blank'}
+              >
+                Troop 203
+              </a>
               . We are proud to have past and present leaders who are Eagle
               Scouts and Wood Badge trained.
               <br />
               <br />
               It is our sincerest hope that if you or if someone you know is
               considering becoming involved in Scouting, you will{' '}
-              <Link to='contact'>
-                <b>
-                  <u>Contact Us</u>
-                </b>
-              </Link>{' '}
-              or one of our leaders.
+              <Link to='contact'>Contact Us</Link> for more information.
             </div>
           </div>
         </div>
